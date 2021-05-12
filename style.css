@@ -8,22 +8,29 @@
     display: flex;
     background-color:#181818;
     align-items: center;
-    margin: 5px 5px 1px 5px;
-    padding: 5px 5px 5px 5px;
+    margin-bottom: 5px;
+    padding: 5px 2px 5px 0px;
+
 }
-h2,p{
+.about{
     display: flex;
     flex-direction: column;
     margin-left: 15px;
+    float: left;
+}
+.about p{
+    word-break: break-all;
 }
 img{
-    height: 200px;
-    width: 200px;
+    height: 10em;
+    width: 10em;
     border-radius: 50%;
 }
 a{
     text-decoration: none;
     color: white;
+    position: relative;
 }
+
 
 
